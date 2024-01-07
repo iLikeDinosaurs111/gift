@@ -1,0 +1,49 @@
+html{
+    background-image: url('cat.gif');
+    background-size:cover;
+    text-align:center;
+    font-family:verdana;
+    font-size:400%;
+}
+.yes{
+    border-radius:10px;
+    font-size:100%;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border:10px;
+    background-color:white;
+}
+.no{
+    border-radius:10px;
+    font-size:100%;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border:10px;
+    
+    background-color:white;
+}
+.ask{
+    padding-bottom:30px;
+    position:absolute;
+    left:1550px;
+    top:-10px;
+    background-color:white;
+    height:1300px;
+    width:1000px;
+}
+.ask2{
+    background-color:plum;
+    height:560px;
+    width:900px;
+    position:absolute;
+    top:105px;
+    left:47.5px;
+    border-radius:20px;
+}
+h1{
+    font-size:150%;
+}
