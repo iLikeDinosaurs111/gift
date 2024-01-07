@@ -15,6 +15,14 @@
             <button id="no"><a href="https://www.amazon.com">no</a></button>
         </div>
     </div>
-    <script src="gift.js"></script>
+    <script>
+        const noButton = document.getElementById('no');
+        noButton.addEventListener('mouseenter', function() {
+        const randomLeft = Math.random() * 100;
+        const randomTop = Math.random() * 100;
+            noButton.style.left = `${randomLeft}%`;
+            noButton.style.top = `${randomTop}%`;
+        });
+    </script>
 </body>
 </html>
