@@ -5,7 +5,13 @@ html{
     font-family:verdana;
     font-size:400%;
 }
+a{
+    text-decoration:none;
+    color:black;
+}
 .yes{
+    position:absolute;
+    left:300px;
     border-radius:10px;
     font-size:100%;
     padding-left:20px;
@@ -15,8 +21,10 @@ html{
     border:10px;
     background-color:white;
 }
-.no{
+#no{
     border-radius:10px;
+    position:absolute;
+ 
     font-size:100%;
     padding-left:20px;
     padding-right:20px;
@@ -25,7 +33,15 @@ html{
     border:10px;
     
     background-color:white;
+    transition:0.2s;
 }
+.yes{
+    transition: transform .2s;
+}
+.yes:hover{
+    transform:scale(1.15);
+}
+
 .ask{
     padding-bottom:30px;
     position:absolute;
